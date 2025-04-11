@@ -1,0 +1,39 @@
+/* lancamentos */
+
+.titulo {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 20px;
+}
+
+.titulo img {
+    max-width: 450px;
+    width: 100%;
+}
+
+.tituloTexto {
+    height: 260px;
+    width: 600px;
+    background-image: url('../img/lançamentos-titulo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    font-family: 'Blank River', sans-serif;
+    font-size: 86pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.titulo hr {
+    width: 100%;
+    border: dashed 2px;
+    position: relative;
+    bottom: 80px;
+    z-index: -1;
+}
